@@ -1,0 +1,59 @@
+{
+  "_from": "cordova-client-cert-authentication@^1.0.1",
+  "_id": "cordova-client-cert-authentication@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-Fths0ksmD/flEoe9n/NXSBH9A7I=",
+  "_location": "/cordova-client-cert-authentication",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-client-cert-authentication@^1.0.1",
+    "name": "cordova-client-cert-authentication",
+    "escapedName": "cordova-client-cert-authentication",
+    "rawSpec": "^1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-client-cert-authentication/-/cordova-client-cert-authentication-1.0.1.tgz",
+  "_shasum": "16d86cd24b260ff7e51287bd9ff3574811fd03b2",
+  "_spec": "cordova-client-cert-authentication@^1.0.1",
+  "_where": "/Users/internet/shahul/chatbotapp/botui",
+  "author": {
+    "name": "johannes-staehlin"
+  },
+  "bugs": {
+    "url": "https://github.com/johannes-staehlin/cordova-client-cert-authentication/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-client-cert-authentication",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "This plugin adds certificate-based authentication (SSO) to your cordova application. There is no extra coding or android  knowledge required when using this plugin. It does not contain any JavaScript part since it just waits until the SSLSocket asks the client for a certificate and then shows the default client-cert pop-up you would also get when visiting your web page using the android chrome browser.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "homepage": "https://github.com/johannes-staehlin/cordova-client-cert-authentication#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-client-cert-authentication",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johannes-staehlin/cordova-client-cert-authentication.git"
+  },
+  "version": "1.0.1"
+}
