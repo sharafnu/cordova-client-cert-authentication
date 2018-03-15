@@ -135,3 +135,4 @@ public class ClientCertificateAuthentication extends CordovaPlugin {
     public void proceedRequers(ICordovaClientCertRequest request) {
         request.proceed(mPrivateKey, mCertificates);
     }
+}
